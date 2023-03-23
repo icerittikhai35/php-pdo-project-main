@@ -18,7 +18,7 @@
         
     }
 ?>
-    <h1 class="text-center"><?php echo "แบบฟอร์มลงชื่อเข้าใช้";?></h1>
+    <h1 class="text-center"><?php echo "ลงชื่อเข้าใช้";?></h1>
     <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF'])?>">
         <div class="form-group">
             <label for="username">Username</label>

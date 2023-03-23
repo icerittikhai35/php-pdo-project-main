@@ -21,7 +21,7 @@ $result=$controller->getEmployees();
     <tr>
         <td><?php echo $row["fname"];?></td>
         <td><?php echo $row["lname"];?></td>
-        <td><?php echo number_format($row["salary"]);?></td>
+        <td><?php echo number_format($row["salary"])," บาท"; ?></td>
         <td><?php echo $row["department_name"];?></td>
         <td>
           <a onclick="return confirm('คุณต้องการลบข้อมูลหรือไม่ ?')"

@@ -17,6 +17,16 @@ class Controller{
         }
     }
 
+    function searchData(){
+        try{
+
+        }catch(PDOException $e){
+            echo $e->getMessage();
+            return false;
+        }
+
+    }
+
     function getEmployees(){
         try{
             $sql = "SELECT * FROM employees a INNER JOIN departments b ON a.department_id = b.department_id ORDER BY a.emp_id";

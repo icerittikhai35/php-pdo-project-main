@@ -14,6 +14,7 @@
         if($status){
             $message="บันทึกข้อมูลเรียบร้อยแล้ว";
             require_once "layout/success_message.php";
+            header("Location:index.php");
         }else{
             require_once "layout/error_message.php";
         }
